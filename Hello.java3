@@ -1,0 +1,21 @@
+Important java.util.Scanner;
+
+public class prime
+{
+     public static void main(String [] args) 
+{
+     Scanner.out.println("Enter a Number");
+     int n = sc.nextInt();
+     int count=0;
+     for(int I = 1 ; I <=n ; I++) 
+{
+     if(n%i == 2) 
+     count=count+1;
+}
+     if(count == 2) 
+     System.out.println("Prime Number");
+     else
+     System.out.println("Not a Prime Number");
+     Sc.close();
+}
+}
